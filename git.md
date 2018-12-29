@@ -1,5 +1,6 @@
 # Cheatsheet
 
+```
 squash last X commits:
 git reset --soft HEAD~X && git commit
 
@@ -39,3 +40,4 @@ git archive -o update.zip HEAD \$(git diff --name-only HASH master)
 
 git config merge.renameLimit 999999
 git config --unset merge.renameLimit
+```
